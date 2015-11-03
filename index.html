@@ -109,22 +109,23 @@
     </script>
   </head>
   <body>
-    <h1>直播云网页播放器演示</h1>
-    <div id="woan_player">
-      <p>
-      Alternative content
-      </p>
+    <div align="center">
+      <h1>直播云网页播放器演示</h1>
+      <div id="woan_player">
+        <p>
+        Alternative content
+        </p>
+      </div>
+      <div>
+        <div>当前播放时间<span id="currentTime" /> ... </span> : 时长<span id="duration" /> ... </span></div>
+        <input type="button" id="btn_pp"  value="播放" data-player-id=""></input>
+        <table>
+          <tr><td>640x480</td> <td>FLV</td><td><button class="btn btn-primary play btn-small" data="http://s3.cn-north-1.amazonaws.com.cn/developer.zhiboyun.com/v/won_640_360.flv" >播放</button></td></tr>
+          <tr><td>640x360</td><td> M3U8</td><td><button class="btn btn-primary play btn-small" data="http://s3.cn-north-1.amazonaws.com.cn/developer.zhiboyun.com/v/won_640_360_hls/won_640_360.m3u8" >播放</button></td></tr>
+          <tr><td>320x240</td> <td> 加密M3U8</td><td><button class="btn btn-primary play btn-small" data="http://s3.cn-north-1.amazonaws.com.cn/developer.zhiboyun.com/v/encrypted_hls/list.m3u8" >播放</button></td></tr>
+        </table>
+      </div>
+      <a href="https://github.com/WoAnTech/zby-wmp-player-demo">返回代码仓库</a> | <a href="https://www.zhiboyun.com">直播云</a>
     </div>
-    <div>
-    <div>当前播放时间<span id="currentTime" /> ... </span> : 时长<span id="duration" /> ... </span></div>
-    <input type="button" id="btn_pp"  value="播放" data-player-id=""></input>
-    <ul>
-    <li>640x480 FLV<button class="btn btn-primary play btn-small" data="http://s3.cn-north-1.amazonaws.com.cn/developer.zhiboyun.com/v/won_640_360.flv" >播放</button>
-    <li>640x360 M3U8<button class="btn btn-primary play btn-small" data="http://s3.cn-north-1.amazonaws.com.cn/developer.zhiboyun.com/v/won_640_360_hls/won_640_360.m3u8" >播放</button>
-    <li>320x240 加密M3U8<button class="btn btn-primary play btn-small" data="http://s3.cn-north-1.amazonaws.com.cn/developer.zhiboyun.com/v/encrypted_hls/list.m3u8" >播放</button>
-    </li>
-    </ul>
-    </div>
-
   </body>
 </html>
